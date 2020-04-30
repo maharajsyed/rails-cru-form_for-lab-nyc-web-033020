@@ -11,7 +11,7 @@ Genre.destroy_all
 
 
 10.times do
-    Song.create(name: Faker::Hipster.words(number: 4, supplemental: true, spaces_allowed: true))
+    Song.create(name: Faker::Hipster.words(number: 2, spaces_allowed: true))
 end
 
 10.times do 
